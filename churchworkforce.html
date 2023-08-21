@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="bootstrap-5.2.0-dist\css\bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="CSS/churchworkforce.css">
+    <title> Join The Work Force </title>
+    <style>
+            section { padding: 60px 0;}
+    </style>
+</head>
+
+<body>
+             <!--Navbar-->
+
+    <nav class="navbar navbar-expand-xl"  style="background-color: #bbdbf1;" class="position-sticky">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/bibleicon1.png" height="80" alt=""> St.Davids Ministries</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item dropdown fw-bold">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            About Us
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="churchabout.html">The Pastor</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="churchabout.html">Mission Statement</a>
+                            </li>
+                            <!--<li><hr class="dropdown-divider"></li>-->
+                            <li>
+                                <a class="dropdown-item" href="churchabout.html">Brief History</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="churchabout.html">Our Branches </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="virtuouswoman.html">Ministries</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!--<li class="nav-item">
+                <a class="nav-link" href="#">Devotional</a>
+            </li>-->
+
+                    <li class="nav-item dropdown fw-bold">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Watch Online
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="#">Live Stream</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Video on Demand</a>
+                            </li>
+                            <!--<li><hr class="dropdown-divider"></li>-->
+                            <li>
+                                <a class="dropdown-item" href="#">TV Broadcast Schedule</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown fw-bold">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Resources
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="#">Daily Devotional</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="testimonies.html">Testimonies</a>
+                                </li>
+                                <!--<li><hr class="dropdown-divider"></li>-->
+                                <li>
+                                    <a class="dropdown-item" href="prayerrequest.html">Prayer Requests</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="churchworkforce.html">SD Work Force</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="bookappointment.html">Book an Appointment</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Special Events</a>
+                                </li>
+                                <!--<li>
+                                    <a class="dropdown-item" href="churchworkforce.html">Hospitality</a>
+                                </li>-->
+                            </ul>
+                    </li>
+                    <li class="nav-item fw-bold mx-5">
+                            <a class="nav-link active" aria-current="page" href="churchgiving.html">Giving</a>
+                    </li>                    
+                    <!--<li class="nav-item dropdown fw-bold">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Give
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="churchgiving.html">Online Offering</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="churchgiving.html">Tithe Payment</a>
+                            </li>
+                            <!--<li><hr class="dropdown-divider"></li>
+                            <li>
+                                <a class="dropdown-item" href="churchgiving.html">Redeem Vows/Seeds</a>
+                            </li>
+                        </ul>
+                    </li>-->
+                    <li class="nav-item fw-bold mx-5">
+                            <a class="nav-link active" aria-current="page"  data-bs-toggle="modal" data-bs-target="#exampleModal2" href="#">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search">
+                    <button class="btn btn-outline-secondary" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+ <!-- Contact Form-->
+    <!-- form-control, form-label, input-group, input-group-text-->  
+    <!--<section id="contact">
+        <div class="container-md">
+            <div class="text-center">
+                <h2>Join the workforce</h2>
+                <p class="lead">Please Fill the form below...</p>
+            </div>
+            <div class="row justify-content-center my-5">
+                <div class="col-md-6">
+                    <form action="">
+                        
+                      
+                        <label for="name" class="form-label">Name:</label>
+                        <div class="mb-4 input-group">
+                            <span class="input-group-text">
+                                <i class="bi bi-person-fill"></i>
+                            </span>
+                            <input type="text" class="form-control" id="name" placeholder="e.g - Ejiro">
+                        </div>
+                        <label for="email" class="form-label">Email address:</label>
+                        <div class="mb-4 input-group">
+                            <span class="input-group-text">
+                                    <i class="bi bi-envelope-fill"></i>                            
+                            </span>
+                            <input type="email" class="form-control" id="email" placeholder="e.g - ejiro123@example.com">
+                        </div>
+                        <label for="subject" class="form-label"> Choose a Unit?</label>
+            
+                        <div class="input-group mb-4">
+                            <span class="input-group-text">
+                                <i class="bi bi-chat-right-dots-fill"></i>
+                            </span>
+                            <select id="subject" class="form-select">
+                                <option value="pricing" selected>Prayer Warriors</option>
+                                <option value="content">Evangelism</option>
+                                <option value="other">Helping Hands</option>
+                                <option value="other">Ushering</option>
+                                <option value="other">Protocol</option>
+                                <option value="other">Sanctuary Keepers</option>
+                                <option value="other">Hospitality</option>
+                            </select>
+                        </div>
+                        
+                       
+                        <div class="form-floating mb-4 mt-5">
+                            <textarea id="query" class="form-control" style="height: 140px;"></textarea>
+                            <label for="query"> Tell us why you want to join us...</label>
+                        </div>
+                        <div class="mb-4 text-center">
+                            <button type="submit" class="btn btn-success">Submit</button>
+                        </div>
+
+                    </form>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>-->
+
+    <section id="slide-holder" class="section">
+            <div class="container-fluid">
+              <div class="container">
+                  <h2>ST.DAVIDS WORKFORCE </h2>
+              </div>
+            </div>
+      </section><!-- #about -->
+  
+      <section id="about" class="section-bg">
+            <div class="container">
+              
+            
+            <div class="row d-flex">
+                <div class="col-lg-4 offset-lg-1 conten wow">
+                 <!-- <div class="section-header">
+                      <h5 class="section-title">Meet Pastor Jerry Eze</h5>
+                      <span class="section-divider"></span>
+                  </div>-->
+                  <p><img src="img/workers.jpg" width="auto" height="500">
+                     
+                  </p>
+  
+                 <!-- <div class="section-header">
+                      <h3>Procedures</h3>
+                      <span class="section-divider"></span>
+                  </div>
+                  <ul>
+                      <li> Submit the request form</li>
+                      <li> Wait for the approval</li>
+                      <li> Get contacted after approval by email/SMS.</li>
+                  </ul>
+                  -->
+                </div>
+  
+                <div class="col-lg-6 offset-lg-1 conten wow">
+                    
+       
+                  <div class="section-header" align="left">
+                      <h4 class="section-title" >Workforce Record Form</h4>
+                      <span class="section-divider"></span>
+                  </div>
+  
+                  <div>
+                                      </div>
+              
+                  <div class="form">
+                      <div id="errormessage"></div>
+                      <form action="" method="post" role="form" class="contactForm">
+                         <div class="form-row">
+                              <div class="form-group col-lg-6">
+                                <label for="sel1">FirstName:</label>
+                                <div>
+                                <input type="text" required name="firstname" required class="form-control" id="fname" placeholder="First Name" data-rule="minlen:3" data-msg="Please enter at least 3 chars" />
+                              <div class="validation"></div>
+                                 
+                                </div>
+                              </div>
+  
+                              <div class="form-group col-lg-6">
+                              <label for="sel1">LastName:</label>
+                             <div>
+                              <input type="text" required name="lastname" required class="form-control" id="lname" placeholder="Last Name" data-rule="minlen:3" data-msg="Please enter at least 3 chars" />
+                              <div class="validation"></div>
+                              </div>
+                          </div>
+                          </div>
+                          <div class="form-row">
+                              <div class="form-group col-lg-6">
+                                <label for="sel1">Gender:</label>
+                                <div>
+                                <select name="gender" class="form-control" required>
+                                        <option value="Male"> Male </option>
+                                        <option value="Female"> Female</option>
+                                    </select>
+                              <div class="validation"></div>
+                                 
+                                </div>
+                              </div>
+  
+                              <div class="form-group col-lg-6">
+                              <label for="sel1">Date of Birth:</label>
+                             <div>
+                              <input type="date" class="form-control" required name="dob" required/>
+                              <div class="validation"></div>
+                              </div>
+                          </div>
+                          </div>
+                          <div class="form-row">
+                          <div class="form-group col-lg-12">
+                               <label for="sel1">Email Address:</label>
+                              <input type="email" class="form-control" required name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                              <div class="validation"></div>
+                          </div>
+                          </div>
+                          <div class="form-row">
+                          <div class="form-group col-lg-12">
+                              <label for="sel1">Phone Number:</label>
+                              <input type="number" class="form-control" required name="phone" id="phone" placeholder="Your Tel Number"  data-msg="Please enter a valid Phone Number" />
+                              <div class="validation"></div>
+                          </div>
+                          </div>
+                         
+                          <div class="form-row">
+                              <div class="form-group col-lg-6">
+                                <label for="sel1">Choose your Preferred Unit/Department :</label>
+                        <div>
+
+                <select name="department" id="department" class="form-control" required  onChange="return subunit();" >
+         
+           <option value="1"> ADMINISTRATION </option>
+          
+           <option value="6"> ALABASTER BOX CONNECT </option>
+          
+           <option value="40"> BANKERS UNIT </option>
+          
+           <option value="42"> CARPENTERS MINISTRY </option>          
+          
+           <option value="29"> CORPERS UNIT </option>
+          
+           <option value="43"> COUNSELING UNIT  </option>
+          
+           <option value="22"> COUPLES FELLOWSHIP </option>
+          
+           <option value="12"> CROWD CONTROL </option>
+          
+           <option value="46"> CRUSADE  </option>
+          
+           <option value="34"> DATA ANALYSIS </option>
+          
+           <option value="30"> DEVOTIONAL UNIT </option>
+          
+           <option value="2"> DISCIPLINARY COMMITTEE </option>
+          
+           <option value="39"> EVENTS AND CEREMONIALS UNIT </option>          
+       
+           <option value="41"> HEALING SCHOOL </option>
+          
+           <option value="21"> HOME ARCHITECTS  </option>
+          
+           <option value="32"> INSTRUMENTATION UNIT </option>     
+                    
+           <option value="36"> LEGAL TEAM </option>
+          
+           <option value="13"> MEETERS AND GREETERS </option>
+          
+           <option value="38"> MEMBERSHIP SUPPORT/ENTERTAINMENT UNIT </option>
+          
+           <option value="44"> MENTORSHIP UNIT </option>       
+                   
+           <option value="20"> PASTORAL CARE UNIT  </option>          
+         
+           <option value="15"> PROGRAM LOGISTICS UNIT </option>          
+          
+           <option value="10"> PROTOCOL DEPARTMENT </option>
+          
+           <option value="4"> QUALITY CONTROL TEAM </option>          
+          
+           <option value="23"> RECOVERY UNIT </option>
+          
+           <option value="25"> SINGLES FELLOWSHIP </option>          
+         
+           <option value="37"> TEENS MINISTERS UNIT </option>
+          
+           <option value="17"> TEMPLE KEEPERS </option>
+          
+           <option value="7"> YOUTH FELLOWSHIP</option>          
+         
+           <option value="31"> TRANSPORT UNIT </option>
+          
+           <option value="27"> WATCHTOWER </option>
+                                       
+                                        
+     </select>
+          <div class="validation"></div>
+           </div>
+           </div>
+           <div class="form-group col-lg-6" id="u_sub" style="display:none;">
+          <label for="sel1">JUBILEE AIRFORCE Sub Unit :</label>
+           <div>
+      <select name="sub_unit" class="form-control" required data-rule="sub_unit" data-msg="Please Choose your Preferred Unit" >
+            <option value="1"> SOUND </option>
+            <option value="2"> CD PRODUCTION </option>
+            <option value="3"> VIDEO PRODUCTION </option>
+            <option value="4"> PROJECTION </option>
+            <option value="5"> JUBILEE BROADCAST </option>
+            <option value="6"> LIGHTING & TIMING </option>
+            <option value="7"> STILL CAMERA UNIT </option>
+                                         
+                                    </select>
+                                    <div class="validation"></div>
+                                </div>
+                              </div>
+                          </div>
+                        
+                          <div class="text-center my-2">
+                              <button type="submit" class="btn btn-secondary shadow-lg "  data-bs-toggle="modal" data-bs-target="#exampleModal" title="I want to become part of St. Davids WorkForce" name="sendPush">
+                                  Submit Form
+                                </button>
+                            </div>
+                      </form>
+                  </div>
+  
+                </div>
+              </div>
+  
+            </div>
+      </section>
+      
+                        <!-- #about -->
+
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                     <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Submitted Successfully...</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                <div class="modal-body">
+                 Your request is under review... Thank You!
+                </div>
+                <!--<div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>-->
+                </div>
+           </div>
+    </div>
+
+           <!--  Contact Us Modal -->
+
+           <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                         <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel"> Send us a mail...</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                    <div class="modal-body">
+                            <div class="form">
+                                    
+                
+                                            <form action="" method="post" role="form" class="contactForm">
+                                                <div class="form-row">
+                                                    <div class="form-group col-lg-6 my-2">
+                                                         <input type="text" name="fullname" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                                                        <div class="validation">
+                
+                                                        </div>
+                                                    </div>
+                
+                                    <div class="form-group col-lg-6 my-2">
+                                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                                            <div class="validation">
+                
+                                            </div>
+                                    </div>
+                                  </div>
+                
+                                  <div class="form-group my-2">
+                                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                                            <div class="validation">
+                
+                                            </div>
+                                  </div>
+                
+                                  <div class="form-group my-2">
+                                        <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                                            <div class="validation">
+                
+                                            </div>
+                                  </div>
+                                    <div class="text-center">
+                                        <button type="submit" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-outline-secondary" title="Send Message" name="sendMessage">Send Message</button>
+                                    </div>
+                
+                                </form>
+                                <div id="sendmessage">Your message has been sent. Thank you!</div>
+                                                      
+                            </div>
+        
+                    </div>
+                    <!--<div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>-->
+                    </div>
+               </div>
+        </div>            
+         
+        
+
+
+                <!--   Contact Us/ Footer Section  -->
+
+
+<section id="contactus">
+        <div class="container-md my-5">
+                <div class="row justify-content-center align-items-center g-2 d-flex">
+                    <div class="col-lg-4">
+                        <div class="contact-about">
+                                <a class="navbar-brand" href="index.html">
+                                     <img src="img/bibleicon1.png" height="80" alt="churchicon"></a>
+                                 <p> St. Davids Ministries is a church made up of people from diverse multi-ethnic backgrounds and nationalities
+                                    with several thousands of worshippers on Sunday mornings and her expressions in different of the globe.
+                                </p>
+                                <div class="icons">
+                                    <a href="https://whatsapp.com/dl/"><i class="bi bi-whatsapp p-3"></i></a>
+                                    <a href="https://www.facebook.com/youdee01"><i class="bi bi-facebook  p-3"></i></a>
+                                    <a href="https://www.instagram.com/invites/contact/?i=1v94lvp1oaax3&utm_content=lft2e7"><i class="bi bi-instagram  p-3"></i></a>
+                                    <a href="https://twitter.com/mr_youdeee?t=4h2TgMH3xdPLYRvL8x4Mbg&s=35"><i class="bi bi-twitter  p-3"></i></a>                    
+                                </div>     
+                        </div>
+                    </div>
+  
+                    <div class="col-lg-4">
+                        <div class="info">
+                            <div class="icons">
+                                <i class="bi bi-location-dot p-1"></i>
+                                <p>St. Davids Church International,
+                                    <br>Cloud 9 Event Center,
+                                    <br>Okigwe Road,Owerri,
+                                    <br>Imo State, Nigeria
+                                    <br>
+                                </p>
+  
+                            </div>
+  
+                        <div> <p> <i class="bi bi-inbox px-1"></i><a href="#"> info@saintdavids.org</a></p>
+                             <p> <i class="bi bi-inbox px-1"></i><a href="mailto:praywithpastor@saintdavids.org"> praywithpastor@saintdavids.org</a></p>
+                        </div>
+  
+                        <div>
+                        <p><i class="bi bi-telephone px-1"></i> +234 (0) 806-523-9505 </p> 
+                        <!--<br/>-->
+                        <p><i class="bi bi-telephone px-1"></i>+234 (0) 806-034-0457</p>
+                        </div>
+  
+                    </div>
+                </div>
+  
+            <div class="col-lg-4">
+                <div class="form">
+                    
+
+                            <form action="" method="post" role="form" class="contactForm">
+                                <div class="form-row">
+                                    <div class="form-group col-lg-6 my-2">
+                                         <input type="text" name="fullname" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                                        <div class="validation">
+
+                                        </div>
+                                    </div>
+
+                    <div class="form-group col-lg-6 my-2">
+                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                            <div class="validation">
+
+                            </div>
+                    </div>
+                  </div>
+
+                  <div class="form-group my-2">
+                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                            <div class="validation">
+
+                            </div>
+                  </div>
+
+                  <div class="form-group my-2">
+                        <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                            <div class="validation">
+
+                            </div>
+                  </div>
+                    <div class="text-center">
+                        <button type="submit" title="Send Message" class="btn btn-outline-secondary" name="sendMessage">Send Message</button>
+                    </div>
+
+                </form>
+                <div id="sendmessage">Your message has been sent. Thank you!</div>
+                <div id="errormessage">
+
+                </div>
+              
+            </div>
+  
+          </div>
+  
+        </div>
+      </section><!-- #contact -->
+  
+      
+  
+    <!--==========================
+      Footer
+    ============================-->
+    <footer id="footer" style="background-color:#bbdbf1">
+      <div class="container">
+        <div class="row-col-12 justify-content-center align-items-center d-flex">
+          <div class="col-lg-6 text-lg-left text-center">
+            <div class="copyright">
+              &copy; Copyright <strong>St. Davids Int'l</strong>. All Rights Reserved
+            </div>
+            <!--<div class="credits">
+              
+              Powered by <a href="#">ICT Unit</a>
+            </div>-->
+          </div>
+          <div class="col-md-6">
+            <nav class="footer-links text-lg-right text-center fw-semibold pt-2 pt-lg-0">
+              <a href="index.html" class="">Home</a>
+              <a href="churchabout.html" class="">About</a>
+              <a href="#">Privacy Policy</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </footer><!-- #footer -->
+
+      <button id="mybtn" title="go to top">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+              <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+            </svg>
+    </button>
+    
+
+
+
+</body>
+<script src="bootstrap-5.2.0-dist\js\bootstrap.min.js"></script>
+<script src="bootstrap-5.2.0-dist\js\bootstrap.bundle.min.js"></script>
+<script src="bootstrap-5.2.0-dist\js\jquery-3.2.1.min.js"></script>
+<script>
+        $(window) .scroll(function(){
+          if($(this) .scrollTop() > 20) {
+            $('#mybtn').fadeIn('slow');
+          }
+          else{
+            $('#mybtn').fadeOut('slow');
+          }
+        });
+      
+        $('#mybtn').click(function(){
+          $('html,body').animate({scrollTop:0}, "slow");
+        return false;
+        })
+      
+      </script>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.2.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/GridLayout2.css">
+    <title>Grid Layout & Breakpoints</title>
+</head>
+<body>
+
+
+    <!-- Basic Grid System-->
+    <div class="container-md my-5">
+        <h2>Basic Grid</h2>
+        <div class="row">
+            <div class="col">
+                <div class="p-5 bg-primary text-light"> col 1</div>
+            </div>
+            <div class="col">
+                <div class="p-5 bg-primary text-light"> col 2</div>
+            </div>
+            <div class="col">
+                <div class="p-5 bg-primary text-light"> col 3</div>
+            </div>
+            <div class="col">
+                <div class="p-5 bg-primary text-light"> col 4</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Column Width-->
+    <div class="container-md my-5">
+        <h2>Columns Widths</h2>
+        <div class="row">
+            <div class="col-6">
+                <div class="p-5 bg-primary text-light"> col 1</div>
+            </div>
+            <div class="col-3">
+                <div class="p-5 bg-primary text-light"> col 2</div>
+            </div>
+            <div class="col-3">
+                <div class="p-5 bg-primary text-light"> col 3</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Responsive Column Width-->
+    <div class="container-md my-5">
+        <h2>Responsive Columns Widths</h2>
+        <div class="row">
+            <div class="col-sm-4 col-md-6">
+                <div class="p-5 bg-primary text-light"> col 1</div>
+            </div>
+            <div class="col-sm-4 col-md-3">
+                <div class="p-5 bg-primary text-light"> col 2</div>
+            </div>
+            <div class="col-sm-4 col-md-3">
+                <div class="p-5 bg-primary text-light"> col 3</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Justifying Columns-->
+    <div class="container-md my-5">
+        <h2>Justifying Columns</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-3">
+                <div class="p-5 bg-primary text-light"> col 1</div>
+            </div>
+            <div class="col-md-3">
+                <div class="p-5 bg-primary text-light"> col 2</div>
+            </div>
+            <div class="col-md-3">
+                <div class="p-5 bg-primary text-light"> col 3</div>
+            </div>
+        </div>
+    </div>
+    <button id="mybtn" title="go to top">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+              <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+            </svg>
+    </button>
+
+    
+    
+</body>
+<script src="bootstrap-5.2.0-dist/js/bootstrap.min.js"></script>
+<script src="bootstrap-5.2.0-dist/js/bootstrap.bundle.min.js"></script>
+<script>
+        $(window) .scroll(function(){
+          if($(this) .scrollTop() > 20) {
+            $('#mybtn').fadeIn('slow');
+          }
+          else{
+            $('#mybtn').fadeOut('slow');
+          }
+        });
+      
+        $('#mybtn').click(function(){
+          $('html,body').animate({scrollTop:0}, "slow");
+        return false;
+        })
+      
+</script>
+
+</html>
